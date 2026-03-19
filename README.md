@@ -1,38 +1,43 @@
-Eesrakenduse Projekt - 4 JavaScripti Teeki
-See projekt on loodud eesrakenduse tunni raames, et demonstreerida nelja erineva JavaScripti raamatukogu kasutamist ja nende integreerimist veebilehele.
+# 🚀 Eesrakenduse Projekt: JS Raamatukogud
 
-Tiimi liikmed
-Maiko Nigul
+Antud projekt on valminud eesrakenduse õppeaine raames. Eesmärk on demonstreerida nelja erineva JavaScripti teegi (library) integratsiooni ja praktilist kasutust ühes veebirakenduses.
 
-Kasutatud tehnoloogiad ja teegid
-1. Chart.js (Data Visualization)
-Fail: index.html ja scripts/chart.js
+---
 
-Kirjeldus: Loob interaktiivse tulpdiagrammi (Bar Chart), mis kuvab maailma veinivalmistamise statistikat. Kasutab HTML5 Canvas elementi.
+## 👥 Tiimi liikmed
+* **Maiko Nigul**
 
-2. GSAP - GreenSock (Animation)
-Fail: views/GSAP.html ja scripts/gsap.js
+---
 
-Kirjeldus: Võimas animatsioonimootor. Kasutatud on Timeline funktsiooni, et animeerida pealkirja ja tekstiplokkide sissetulemist sujuva viivitusega (stagger).
+## 🛠️ Kasutatud JavaScripti teegid
 
-3. Three.js (3D & WebGL)
-Fail: views/threejs.html ja scripts/three.js
+Olen valinud neli teeki, mis katavad tänapäeva veebiarenduse olulisemad suunad: **andmed, animatsioon, 3D ja interaktiivsus.**
 
-Kirjeldus: 3D graafika raamatukogu. Lehel on loodud stseen, kaamera ja renderdaja, mis kuvab pidevalt pöörlevat rohelist wireframe-kuubikut.
+| Teema | Teek (Library) | Kirjeldus |
+| :--- | :--- | :--- |
+| **Data Visualization** | [Chart.js](https://www.chartjs.org/) | Interaktiivne tulpdiagramm veinivalmistamise statistika kohta. |
+| **Animation** | [GSAP](https://gsap.com/) | Sujuv *timeline*-põhine animatsioon teksti ja elementide sisselennuks. |
+| **3D & WebGL** | [Three.js](https://threejs.org/) | Dünaamiline 3D stseen koos pöörleva *wireframe*-kuubikuga. |
+| **Creative & Effects** | [Typed.js](https://mattboldt.com/demos/typed-js/) | Trükimasina efektiga animeeritud tekstiloogika. |
 
-4. Typed.js (Creative & Effects)
-Fail: views/typedjs.html ja scripts/typed.js
+---
 
-Kirjeldus: Trükimasina efekti loov teek. Kasutatud dünaamilise tekstianimatsiooni jaoks, mis kirjeldab teegi omadusi ja kasutusvaldkondi.
+## 📁 Projekti struktuur
 
-Failistruktuur
-/ - Juurkaustas asub index.html ja README.md
+Projekti failid on jaotatud loogiliselt, et hoida kood puhas ja kergesti hooldatav:
 
-/scripts - Kõik JavaScripti loogika failid
-
-/styles - CSS kujundus
-
-/views - Teekide eraldi vaated (GSAP, Three.js, Typed.js)
-
-Tähtaeg
-19.03.2026 kell 18:00
+```text
+/7-tund
+├── index.html          # Pealeht (Chart.js)
+├── README.md           # Projekti dokumentatsioon
+├── scripts/            # JavaScripti loogika
+│   ├── chart.js
+│   ├── gsap.js
+│   ├── three.js
+│   └── typed.js
+├── styles/             # CSS kujundusfailid
+│   └── style.css
+└── views/              # Alamlehed teekide jaoks
+    ├── GSAP.html
+    ├── threejs.html
+    └── typedjs.html
